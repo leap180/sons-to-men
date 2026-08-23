@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { SELAR_URL } from '@/lib/site'
+import { STRIPE_URL } from '@/lib/site'
 
 export function SiteFooter() {
   return (
@@ -17,7 +17,7 @@ export function SiteFooter() {
           <Button
             size="lg"
             nativeButton={false}
-            render={<a href={SELAR_URL} target="_blank" rel="noopener noreferrer" />}
+            render={<a href={STRIPE_URL} target="_blank" rel="noopener noreferrer" />}
             className="group mt-8 h-12 rounded-full bg-amber px-8 text-base text-white hover:bg-amber/90"
           >
             Get your first challenge
