@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { ArrowRight, Sparkles } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { SELAR_URL } from '@/lib/site'
+import { STRIPE_URL } from '@/lib/site'
 
 export function Hero() {
   return (
@@ -26,7 +26,7 @@ export function Hero() {
             <Button
               size="lg"
               nativeButton={false}
-              render={<a href={SELAR_URL} target="_blank" rel="noopener noreferrer" />}
+              render={<a href={STRIPE_URL} target="_blank" rel="noopener noreferrer" />}
               className="group h-12 rounded-full bg-amber px-7 text-base text-white hover:bg-amber/90"
             >
               Get your first challenge
