@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
-import { SELAR_URL } from '@/lib/site'
+import { STRIPE_URL } from '@/lib/site'
 
 const navLinks = [
   { label: 'How it works', href: '#how-it-works' },
