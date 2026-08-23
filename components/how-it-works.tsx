@@ -14,14 +14,14 @@ function FacebookIcon({ className }: { className?: string }) {
   )
 }
 import { Button } from '@/components/ui/button'
-import { SELAR_URL, FACEBOOK_URL } from '@/lib/site'
+import { STRIPE_URL, FACEBOOK_URL } from '@/lib/site'
 
 const steps = [
   {
     icon: Ticket,
-    title: 'Subscribe on Selar',
+    title: 'Subscribe on STRIPE',
     description:
-      'Choose your plan and subscribe securely on Selar. It only takes a minute to get started.',
+      'Choose your plan and subscribe securely on STRIPE. It only takes a minute to get started.',
   },
   {
     icon: Users,
@@ -84,7 +84,7 @@ export function HowItWorks() {
               Challenges delivered weekly inside our private Facebook community
             </h3>
             <p className="mt-3 text-pretty leading-relaxed text-muted-foreground">
-              Subscribe on Selar, then join the private group for instant access.
+              Subscribe on STRIPE, then join the private group for instant access.
               Every week you and your son grow alongside other families doing the
               same.
             </p>
@@ -102,10 +102,10 @@ export function HowItWorks() {
                 size="lg"
                 variant="outline"
                 nativeButton={false}
-                render={<a href={SELAR_URL} target="_blank" rel="noopener noreferrer" />}
+                render={<a href={STRIPE_URL} target="_blank" rel="noopener noreferrer" />}
                 className="h-12 rounded-full border-navy/20 bg-transparent px-7 text-base text-navy hover:bg-navy/5"
               >
-                Subscribe on Selar
+                Subscribe on STRIPE
               </Button>
             </div>
           </div>
